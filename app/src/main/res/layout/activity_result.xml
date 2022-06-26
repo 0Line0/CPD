@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/result1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/textedit"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:id="@+id/rcamerabtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/resultbtn1" />
+
+        <ImageButton
+            android:id="@+id/rtextbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/resultbtn2" />
+
+        <ImageButton
+            android:id="@+id/rvoicebtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/resultbtn3" />
+
+        <ImageButton
+            android:id="@+id/rgobtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/resultbt4" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
